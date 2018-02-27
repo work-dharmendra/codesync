@@ -1,0 +1,7 @@
+com/codesync/test/common/TestDto.class
+com/codesync/test/common/NewClass.class
+com/codesync/test/common/IntTestExecutor.class
+com/codesync/test/common/RestClient.class
+com/codesync/test/common/IntTestList.class
+com/codesync/test/common/TestException.class
+com/codesync/test/common/ClassExecutor.class

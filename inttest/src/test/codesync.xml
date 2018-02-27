@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesync>
+    <id>test987</id>
+    <dirs>
+        <dir>/Users/dharmendra/code/codesync/testwar/target/classes</dir>
+    </dirs>
+
+    <remoteApp>
+        <url>localhost:9988</url>
+    </remoteApp>
+
+</codesync>

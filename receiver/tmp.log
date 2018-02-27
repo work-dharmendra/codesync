@@ -1,0 +1,173 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building receiver 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ receiver ---
+[INFO] Deleting C:\Users\dharmendra.singh\ideaws\codesync\receiver\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ receiver ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ receiver ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\classes
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/TestLoader.java:[22,9] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/SpringClassLoader.java:[54,88] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/SpringClassLoader.java:[129,20] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/SpringClassLoader.java:[129,46] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/SpringClassLoader.java:[129,59] unchecked cast
+  required: java.util.Vector<java.lang.Class>
+  found:    java.lang.Object
+[WARNING] /C:/Users/dharmendra.singh/ideaws/codesync/receiver/src/main/java/com/codesync/receiver/loader/SpringClassLoader.java:[130,17] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ receiver ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\dharmendra.singh\ideaws\codesync\receiver\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ receiver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ receiver ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ receiver ---
+[INFO] Building jar: C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\codesync-agent.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.4.3:shade (default) @ receiver ---
+[INFO] Including codesync:common:jar:1.0-SNAPSHOT in the shaded jar.
+[INFO] Including org.springframework:springloaded:jar:1.2.1.RELEASE in the shaded jar.
+[INFO] Including org.javassist:javassist:jar:3.19.0-GA in the shaded jar.
+[INFO] Including com.google.inject:guice:jar:3.0 in the shaded jar.
+[INFO] Including javax.inject:javax.inject:jar:1 in the shaded jar.
+[INFO] Including aopalliance:aopalliance:jar:1.0 in the shaded jar.
+[INFO] Including com.thoughtworks.xstream:xstream:jar:1.4.7 in the shaded jar.
+[INFO] Including xmlpull:xmlpull:jar:1.1.3.1 in the shaded jar.
+[INFO] Including xpp3:xpp3_min:jar:1.1.4c in the shaded jar.
+[WARNING] xmlpull-1.1.3.1.jar, xpp3_min-1.1.4c.jar define 2 overlapping classes: 
+[WARNING]   - org.xmlpull.v1.XmlPullParser
+[WARNING]   - org.xmlpull.v1.XmlPullParserException
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\codesync-agent.jar with C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\receiver-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\dharmendra.singh\ideaws\codesync\receiver\dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: C:\Users\dharmendra.singh\ideaws\codesync\receiver\dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ receiver ---
+[INFO] Installing C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\codesync-agent.jar to C:\Users\dharmendra.singh\.m2\repository\codesync\receiver\1.0-SNAPSHOT\receiver-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\dharmendra.singh\ideaws\codesync\receiver\dependency-reduced-pom.xml to C:\Users\dharmendra.singh\.m2\repository\codesync\receiver\1.0-SNAPSHOT\receiver-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-shade-plugin:2.4.3:shade (default-cli) @ receiver ---
+[INFO] Including codesync:common:jar:1.0-SNAPSHOT in the shaded jar.
+[INFO] Including org.springframework:springloaded:jar:1.2.1.RELEASE in the shaded jar.
+[INFO] Including org.javassist:javassist:jar:3.19.0-GA in the shaded jar.
+[INFO] Including com.google.inject:guice:jar:3.0 in the shaded jar.
+[INFO] Including javax.inject:javax.inject:jar:1 in the shaded jar.
+[INFO] Including aopalliance:aopalliance:jar:1.0 in the shaded jar.
+[INFO] Including com.thoughtworks.xstream:xstream:jar:1.4.7 in the shaded jar.
+[INFO] Including xmlpull:xmlpull:jar:1.1.3.1 in the shaded jar.
+[INFO] Including xpp3:xpp3_min:jar:1.1.4c in the shaded jar.
+[WARNING] codesync-agent.jar, javassist-3.19.0-GA.jar define 398 overlapping classes: 
+[WARNING]   - javassist.bytecode.LineNumberAttribute
+[WARNING]   - javassist.bytecode.SignatureAttribute$BaseType
+[WARNING]   - javassist.bytecode.ClassFilePrinter
+[WARNING]   - javassist.bytecode.StackMap$Writer
+[WARNING]   - javassist.compiler.ast.Visitor
+[WARNING]   - javassist.CtClass$1
+[WARNING]   - javassist.util.proxy.RuntimeSupport$DefaultMethodHandler
+[WARNING]   - javassist.bytecode.analysis.FramePrinter
+[WARNING]   - javassist.bytecode.ConstInfo
+[WARNING]   - javassist.bytecode.analysis.Executor
+[WARNING]   - 388 more...
+[WARNING] codesync-agent.jar, javax.inject-1.jar define 6 overlapping classes: 
+[WARNING]   - javax.inject.Named
+[WARNING]   - javax.inject.Provider
+[WARNING]   - javax.inject.Scope
+[WARNING]   - javax.inject.Qualifier
+[WARNING]   - javax.inject.Singleton
+[WARNING]   - javax.inject.Inject
+[WARNING] codesync-agent.jar, xmlpull-1.1.3.1.jar define 2 overlapping classes: 
+[WARNING]   - org.xmlpull.v1.XmlSerializer
+[WARNING]   - org.xmlpull.v1.XmlPullParserFactory
+[WARNING] codesync-agent.jar, common-1.0-SNAPSHOT.jar define 12 overlapping classes: 
+[WARNING]   - java.util.logging.LoggerFactory
+[WARNING]   - com.codesync.common.dto.SyncResponseDTO
+[WARNING]   - com.codesync.common.entity.Configurations
+[WARNING]   - com.codesync.common.entity.FileType
+[WARNING]   - com.codesync.common.Status
+[WARNING]   - com.codesync.common.dto.SyncRequestDTO
+[WARNING]   - java.util.logging.Logger
+[WARNING]   - java.util.logging.Appender
+[WARNING]   - java.util.logging.ConsoleAppender
+[WARNING]   - com.codesync.common.Constants
+[WARNING]   - 2 more...
+[WARNING] codesync-agent.jar, aopalliance-1.0.jar define 9 overlapping classes: 
+[WARNING]   - org.aopalliance.intercept.ConstructorInterceptor
+[WARNING]   - org.aopalliance.intercept.MethodInvocation
+[WARNING]   - org.aopalliance.intercept.ConstructorInvocation
+[WARNING]   - org.aopalliance.aop.Advice
+[WARNING]   - org.aopalliance.intercept.Interceptor
+[WARNING]   - org.aopalliance.aop.AspectException
+[WARNING]   - org.aopalliance.intercept.Invocation
+[WARNING]   - org.aopalliance.intercept.Joinpoint
+[WARNING]   - org.aopalliance.intercept.MethodInterceptor
+[WARNING] codesync-agent.jar, springloaded-1.2.1.RELEASE.jar define 208 overlapping classes: 
+[WARNING]   - sl.org.objectweb.asm.tree.IntInsnNode
+[WARNING]   - sl.org.objectweb.asm.AnnotationVisitor
+[WARNING]   - org.springsource.loaded.ri.ReloadedTypeInvoker$2
+[WARNING]   - org.springsource.loaded.ReloadEventProcessorPlugin
+[WARNING]   - org.springsource.loaded.agent.SpringLoadedPreProcessor
+[WARNING]   - org.springsource.loaded.agent.CglibPluginCapturing
+[WARNING]   - org.springsource.loaded.ConstantPoolChecker2$References
+[WARNING]   - sl.org.objectweb.asm.ClassWriter
+[WARNING]   - org.springsource.loaded.agent.Watcher$RecentChangeFilter
+[WARNING]   - org.springsource.loaded.LoadtimeInstrumentationPlugin
+[WARNING]   - 198 more...
+[WARNING] codesync-agent.jar, xpp3_min-1.1.4c.jar define 1 overlapping classes: 
+[WARNING]   - org.xmlpull.mxp1.MXParser
+[WARNING] codesync-agent.jar, xstream-1.4.7.jar define 437 overlapping classes: 
+[WARNING]   - com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy
+[WARNING]   - com.thoughtworks.xstream.core.util.ArrayIterator
+[WARNING]   - com.thoughtworks.xstream.io.xml.StaxDriver
+[WARNING]   - com.thoughtworks.xstream.converters.ErrorReporter
+[WARNING]   - com.thoughtworks.xstream.core.ReferencingMarshallingContext
+[WARNING]   - com.thoughtworks.xstream.core.TreeMarshaller$CircularReferenceException
+[WARNING]   - com.thoughtworks.xstream.converters.collections.TreeMapConverter
+[WARNING]   - com.thoughtworks.xstream.converters.enums.EnumConverter
+[WARNING]   - com.thoughtworks.xstream.mapper.ImmutableTypesMapper
+[WARNING]   - com.thoughtworks.xstream.io.xml.AbstractXmlDriver
+[WARNING]   - 427 more...
+[WARNING] codesync-agent.jar, xmlpull-1.1.3.1.jar, xpp3_min-1.1.4c.jar define 2 overlapping classes: 
+[WARNING]   - org.xmlpull.v1.XmlPullParser
+[WARNING]   - org.xmlpull.v1.XmlPullParserException
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\codesync-agent.jar with C:\Users\dharmendra.singh\ideaws\codesync\receiver\target\receiver-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\dharmendra.singh\ideaws\codesync\receiver\dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.711 s
+[INFO] Finished at: 2016-09-15T20:41:44-04:00
+[INFO] Final Memory: 17M/437M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+{
+  "id": "inttest",
+  "dirs": ["/Users/dharmendra/code/codesync/inttest/target/classes",
+          "/Users/dharmendra/code/codesync/test-common/target/classes"],
+  "remote_app": ["localhost:9988"]
+}
